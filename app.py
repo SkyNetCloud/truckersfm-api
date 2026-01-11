@@ -39,9 +39,9 @@ class Handler(BaseHTTPRequestHandler):
                 
             tfm = TruckersFM()
             data = {
-                'current_song': tfm.currentSong(),
                 'title': tfm.currentSongTitle(),
                 'artist': tfm.currentSongArtist(),
+                'albumart': tfm.currentSongAlbumArt(),
                 'time': time.strftime('%Y-%m-%d %H:%M:%S'),
                 'status': 'success'
             }
