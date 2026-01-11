@@ -1,1 +1,1 @@
-truckersfm>=2.0.1
+truckersfm.py>=2.0.1
